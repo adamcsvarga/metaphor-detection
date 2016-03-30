@@ -1,7 +1,7 @@
 # Automatic Metaphorical Phrase Detection
 ## Created by Adam Varga, 2014
 
-This tool was used for experimenting with the automatic detection of metaphorical and/or idiomatic phrases in texts. The program calculates constructs a
+This tool was used for experimenting with the automatic detection of metaphorical and/or idiomatic phrases in texts. The program constructs a
 full weighted graph for each sentence (the words being its nodes), where the weight is the [Google Distance](https://en.wikipedia.org/wiki/Normalized_Google_distance)
 between two words, which serves as an automatic semantic distance measure. This version operated on an offline corpus, i. e. downloaded webpages.
 
